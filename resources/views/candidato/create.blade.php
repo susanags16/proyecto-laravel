@@ -43,6 +43,7 @@
                 <label for="perfil">Perfil:</label>
                 <input type="file" id="perfil" accept="application/pdf"
                  class="form-control" name="perfil" />
+
             </div>
 
             <button type="submit" class="btn btn-primary">Guardar</button>

@@ -172,12 +172,17 @@ return [
          * Application Service Providers...
          */
 	Reliese\Coders\CodersServiceProvider::class,
+    Laravel\Socialite\SocialiteServiceProvider::class,
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+    ],
+    
+    'aliases'=> [
+        'socialite'=> Laravel\Socialite\Facades\Socialite::class,
     ],
 
     /*
